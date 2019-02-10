@@ -2,7 +2,7 @@
 import sys
 argc = len(sys.argv)
 if  argc < 2 or argc > 3:
-    print("Usage: python3 save.py cache-file [output-file]")
+    print("Usage: python3 extract.py cache-file [output-file]")
     print("    If an output-file is not provided, then it'll be automatically decided.")
     sys.exit(1)
 
